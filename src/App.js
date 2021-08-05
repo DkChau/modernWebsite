@@ -24,8 +24,6 @@ function App() {
       <InfoSection data={Section2}/>
       <Service></Service>
       <Learn/>
-      <Switch>
-      </Switch>
     </Router>
   );
 }
