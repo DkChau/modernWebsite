@@ -19,42 +19,6 @@ export const SignUp = styled.div`
     }
 `
 
-export const NavContainer = styled.div`
-    width:100%;
-    height:100px;
-    margin: 0 auto;
-    position:sticky;
-    top:0; 
-    margin-top:-100px;
-    padding: 0 80px;
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    justify-content: center;
-    align-content: center;
-    font-family:'Open Sans';
-    color:black;
-    background: #ffffff;
-    transition:0.3s ease-in-out;
-
-    @media (max-width:992px){
-        font-size: 0.9rem;
-
-        h1{
-            font-size:32px;
-        }
-
-        ${SignUp}{
-            font-size:12px;
-        }
-
-    }
-
-    @media screen and (max-width:768px)
-    {
-        padding:0 40px;
-    }
-`
-
 //Logo Elements
 export const LogoWrapper = styled.div`
     width:auto;
@@ -125,5 +89,43 @@ export const MobileIcon = styled.div`
 
     @media screen and (max-width:768px){
         display:flex;
+    }
+`
+
+export const NavContainer = styled.div`
+    width:100%;
+    height:100px;
+    margin: 0 auto;
+    position:fixed;
+    top:0; 
+    padding: 0 80px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    justify-content: center;
+    align-content: center;
+    font-family:'Open Sans';
+    color:black;
+    background: #ffffff;
+    transition:0.3s ease-in-out;
+
+    @media (max-width:992px){
+        font-size: 0.9rem;
+
+        h1{
+            font-size:32px;
+        }
+
+        ${SignUp}{
+            font-size:12px;
+        }
+
+    }
+
+    @media screen and (max-width:768px)
+    {
+        padding:0 40px;
+        h1{
+            font-size:34px;
+        }
     }
 `

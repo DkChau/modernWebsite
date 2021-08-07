@@ -85,17 +85,17 @@ export const HomeContainer = styled.div`
         grid-gap: 0;;
 
         ${TextTitle}{
-            font-size:42px;
+            font-size:2.5rem;
         }
         ${TextWrapper}{
             max-width:500px;
             grid-area:row2;
-            font-size:1rem;
+            font-size:.9rem;
             margin:0 auto;
             width:100%;
         }
         ${HomeImage}{
-            width:350px;
+            width:250px;
             height:auto;
             max-height:500px;
         }
@@ -103,17 +103,20 @@ export const HomeContainer = styled.div`
     @media screen and (max-width:576px){
         padding-top: 175px;
         ${TextTitle}{
-            font-size:32px;
+            font-size:2rem;
         }
         ${TextWrapper}{
             max-width:500px;
             grid-area:row2;
-            font-size:0.9rem;
+            font-size:0.8rem;
             margin:0 auto;
             width:100%;
         }
+        ${TextDescription}{
+            padding:20px 0 0 0;
+        }
         ${HomeImage}{
-            width:300px;
+            width:200px;
             height:auto;
             max-height:500px;
         }

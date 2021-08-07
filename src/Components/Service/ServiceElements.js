@@ -1,17 +1,5 @@
 import styled from 'styled-components'
 
-export const ServiceContainer = styled.div`
-    width:80%;
-    height:100vh;
-    max-width: 1200px;
-    margin: 0 auto;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:'col1 col2';
-    justify-content:center;
-    align-content: center;
-    border-bottom: 3px solid #d9d9d9;
-`
 export const TextSubHeading=styled.h4`
     font-size:16px;
     font-weight: 300;
@@ -56,4 +44,21 @@ export const CardWrapper = styled.div`
     grid-template-rows: 240px 240px;
     justify-content: center;
     align-content: center;
+`
+export const ServiceContainer = styled.div`
+    width:80%;
+    height:100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:'col1 col2';
+    justify-content:center;
+    align-content: center;
+    border-bottom: 3px solid #d9d9d9;
+
+    @media (max-width:1200px){}
+    @media (max-width:992px){}
+    @media (max-width:768px){}
+    @media (max-width:576px){}
 `

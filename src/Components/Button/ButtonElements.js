@@ -16,6 +16,9 @@ export const ButtonContainer = styled.div`
     &:hover{
         opacity:0.6;
     }
+    @media (max-width: 576px){
+        height:40px;
+    }
 `
 
 export const ButtonText=styled.p`
