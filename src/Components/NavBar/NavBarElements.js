@@ -2,8 +2,25 @@ import styled from 'styled-components'
 import {Link as LinkS} from 'react-scroll'
 import {Link as LinkR} from 'react-router-dom'
 
+export const SignUp = styled.div`
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:auto;
+    border:1px solid black;
+    height:40px;
+    align-self: center;
+
+    @media screen and (max-width:768px){
+        display:none;
+    }
+    &:hover{
+        background:#f8f7ef;
+    }
+`
+
 export const NavContainer = styled.div`
-    width:95%;
+    width:100%;
     height:100px;
     margin: 0 auto;
     position:sticky;
@@ -17,6 +34,25 @@ export const NavContainer = styled.div`
     font-family:'Open Sans';
     color:black;
     background: #ffffff;
+    transition:0.3s ease-in-out;
+
+    @media (max-width:992px){
+        font-size: 0.9rem;
+
+        h1{
+            font-size:32px;
+        }
+
+        ${SignUp}{
+            font-size:12px;
+        }
+
+    }
+
+    @media screen and (max-width:768px)
+    {
+        padding:0 40px;
+    }
 `
 
 //Logo Elements
@@ -56,7 +92,6 @@ export const LinkWrapper = styled.div`
 `
 export const Link = styled(LinkS)`
     color:black; //Design
-    font-size:18px;
     padding:5px 0;
     cursor:pointer;
     font-weight:300;
@@ -72,31 +107,13 @@ export const Link = styled(LinkS)`
 `
 
 //Sign Up Elements
-export const SignUp = styled.div`
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    width:auto;
-    border:1px solid black;
-    height:40px;
-    align-self: center;
 
-    @media screen and (max-width:768px){
-        display:none;
-    }
-`
 export const SignBtn = styled(LinkR)`
     color:black; //Design
-    font-size:14px;
     margin: 0 15px;
     text-decoration:none;
     cursor:pointer;
-    /* transition: color 0.3s;
 
-    &:hover{
-        color:#ffffff;
-    } */
-    
 `
 
 export const MobileIcon = styled.div`

@@ -8,23 +8,29 @@ import {
 } from './MobileMenuElements'
 
 const MobileMenu = (props) => {
+    const toggleMenu = () =>{
+        props.toggle();
+    }
     return (
         <MenuContainer open={props.open}>
             <CrossIcon onClick={props.toggle}>
                 <FaTimes></FaTimes>
             </CrossIcon>
             <Menu>
-                <MenuLink>
-                    <Link>About Us</Link>
+            <MenuLink>
+                    <Link onClick={toggleMenu} to='home'>Home</Link>
                 </MenuLink>
                 <MenuLink>
-                    <Link>Discover</Link>
+                    <Link onClick={toggleMenu} to='about'>About Us</Link>
                 </MenuLink>
                 <MenuLink>
-                    <Link>Services</Link>
+                    <Link onClick={toggleMenu} to='careers'>Discover</Link>
                 </MenuLink>
                 <MenuLink>
-                    <Link>Learn more</Link>
+                    <Link onClick={toggleMenu} to='services'>Services</Link>
+                </MenuLink>
+                <MenuLink>
+                    <Link onClick={toggleMenu} to='learn'>Learn more</Link>
                 </MenuLink>
             </Menu>
         </MenuContainer>

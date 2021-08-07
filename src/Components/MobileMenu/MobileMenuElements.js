@@ -12,8 +12,7 @@ export const MenuContainer = styled.div`
     opacity: ${({open})=>(open?'100%' : '0%')};
     width:100%;
     height:100vh;
-    background-color: #F1FAEE;
-    font-family:Oswald;
+    background-color: white;
     top: 0;
     left:${({open})=>(open?'0' : '-100%')};
     z-index:999;
@@ -28,7 +27,10 @@ export const CrossIcon = styled.div`
     height:100%;
     font-size: 32px;
     padding:0 40px;
-    color:#E63946;
+    color:#f2674d;
+    &:hover{
+        opacity:0.6;
+    }
 `
 export const Menu = styled.div`
     display:flex;
@@ -44,10 +46,13 @@ export const MenuLink = styled.div`
     justify-content: center;
     align-items: center;
     padding:40px 0;
-    font-size: 1.75rem;
-    font-weight:600;
+    font-size: 1.5rem;
+    color:#f2674d;
+
 `
 export const Link = styled(LinkS)`
-    color:#E63946;
     cursor:pointer;
+    &:hover{
+        opacity:0.6;
+    }
 `
