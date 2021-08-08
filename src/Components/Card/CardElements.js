@@ -34,8 +34,8 @@ export const CardContainer = styled.div`
     transition: 0.3s ease-in-out;
 
     &:hover{
-        background-color:#f2674d;
-        color:white;
+        background-color:#f5a8a0;
+        color:black;
     }
     @media (max-width:1200px){
         width:180px; 
@@ -47,18 +47,22 @@ export const CardContainer = styled.div`
         margin:0 10px;
         ${CardHeading}{}
         ${CardLink}{}
-        ${CardImage}
+        ${CardImage}{}
     }
     @media (max-width:768px){
         width:200px;
         height:125px;
+        margin:10px;
         border-radius: 10px;
-        ${CardHeading}{}
-        ${CardLink}{}
-        ${CardImage}{}
+        ${CardHeading}{font-size:1rem; padding:3px 0;}
+        ${CardLink}{font-size:.9rem;}
+        ${CardImage}{width:50px;}
     }
     @media (max-width:576px){
-        width:175px;
+        width:125px;
         height:100px;
+        ${CardHeading}{font-size:.9rem; padding:0}
+        ${CardLink}{font-size:.8rem}
+        ${CardImage}{width:50px;}
     }
 `

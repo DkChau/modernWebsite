@@ -26,8 +26,8 @@ function App() {
       <InfoSection data={Section1}/>
       <InfoSection data={Section2}/>
       <Service></Service>
-      {/* <Learn/>
-      <Footer></Footer> */}
+      <Learn/>
+      {/* <Footer></Footer> */}
     </Router>
   );
 }

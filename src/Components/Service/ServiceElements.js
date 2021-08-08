@@ -17,7 +17,6 @@ export const TextWrapper = styled.div`
     display:flex;
     width:auto;
     max-width:400px;
-    text-align:justify;
     height:auto;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +52,7 @@ export const ServiceContainer = styled.div`
     margin: 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:'text card';
+    grid-template-areas:'card text';
     justify-content:center;
     align-content: center;
     border-bottom: 3px solid #d9d9d9;
@@ -66,7 +65,7 @@ export const ServiceContainer = styled.div`
         ${TextSubHeading}{font-size:1rem;}
         ${TextHeader}{font-size:2rem}
         ${Text}{font-size:1rem}
-        ${TextWrapper}{max-width:300px}
+        ${TextWrapper}{max-width:340px}
     }
     @media (max-width:992px){
         ${CardWrapper}{
@@ -76,10 +75,10 @@ export const ServiceContainer = styled.div`
             margin-bottom:60px;
             margin-left:0;
         }
-        ${TextSubHeading}{font-size:1rem;}
+        ${TextSubHeading}{font-size:1.2rem}
         ${TextHeader}{font-size:2rem}
-        ${Text}{font-size:1rem}
-        ${TextWrapper}{max-width:500px;}
+        ${Text}{font-size:1.2rem}
+        ${TextWrapper}{max-width:600px}
 
         grid-template-rows:auto auto;
         grid-template-columns: 1fr;
@@ -89,6 +88,10 @@ export const ServiceContainer = styled.div`
         grid-gap: 20px;
     }
     @media (max-width:768px){
+        ${TextSubHeading}{font-size:1rem}
+        ${TextHeader}{font-size:1.8rem}
+        ${Text}{font-size:1rem}
+        ${TextWrapper}{max-width:600px}
         ${CardWrapper}{
             display:grid;
             grid-template-columns: 1fr 1fr;
@@ -98,5 +101,10 @@ export const ServiceContainer = styled.div`
             margin:0 auto 20px auto;
         }
     }
-    @media (max-width:576px){}
+    @media (max-width:576px){
+        ${TextSubHeading}{font-size:.8rem}
+        ${TextHeader}{font-size:1.6rem}
+        ${Text}{font-size:.8rem}
+        ${TextWrapper}{max-width:400px}
+    }
 `

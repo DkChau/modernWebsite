@@ -29,22 +29,22 @@ const Learn = () => {
             </TextContainer>
             <LearnWrapper>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Team.svg").default}></LearnImage>
+                    <LearnImage src={require("../../Images/Learn/Bulb.svg").default}></LearnImage>
                     <LearnSubHead>Testtt</LearnSubHead>
                     <LearnDescription>Testasda</LearnDescription>
                 </SingleLearn>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Team.svg").default}></LearnImage>
+                    <LearnImage src={require("../../Images/Learn/Calendar.svg").default}></LearnImage>
                     <LearnSubHead>Testtt</LearnSubHead>
                     <LearnDescription>Testasda</LearnDescription>
                 </SingleLearn>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Team.svg").default}></LearnImage>
+                    <LearnImage src={require("../../Images/Learn/Pencil.svg").default}></LearnImage>
                     <LearnSubHead>Testtt</LearnSubHead>
                     <LearnDescription>Testasda</LearnDescription>
                 </SingleLearn>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Team.svg").default}></LearnImage>
+                    <LearnImage src={require("../../Images/Learn/Board.svg").default}></LearnImage>
                     <LearnSubHead>Testtt</LearnSubHead>
                     <LearnDescription>Testasda</LearnDescription>
                 </SingleLearn>

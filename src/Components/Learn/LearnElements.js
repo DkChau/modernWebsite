@@ -11,10 +11,9 @@ export const LearnContainer = styled.div`
     text-align:center;
     justify-content: flex-start;
     align-items: flex-start;
+    color:black;
 `
 export const TextSubHeading=styled.h4`
-    font-size:16px;
-    font-weight: 300;
     color:#f2674d;
 `
 export const TextContainer = styled.div`
@@ -35,14 +34,12 @@ export const TextWrapper = styled.div`
 `
 
 export const TextHeader = styled.h2`
-    color:black;
     padding:5px 0;
-    font-size: 32px;
+    font-size: 2rem;
 `
 
 export const Text = styled.p`
     margin-top: 20px;
-    color:black;
     font-family:'Open Sans';
 `
 
@@ -60,25 +57,23 @@ export const SingleLearn = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:20px 0px 50px 0;
+    /* margin:20px 0px 50px 0;
     margin-right: 100px;
-    padding:10px;
+    padding:10px; */
 
 `
 
 export const LearnImage = styled.img`
-    width:125px;
+    width:100px;
     height:auto;
-    max-height: 200px;
-    margin-bottom: 10px;
+    max-height: 100px;
+    /* margin-bottom: 10px; */
 `
 
 export const LearnSubHead = styled.h3`
-    color:black;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 `
 
 export const LearnDescription = styled.p`
-    color:black;
     font-family: 'Open Sans';
 `
