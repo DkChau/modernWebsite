@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 export const TextSubHeading=styled.h4`
-    font-size:16px;
     font-weight: 300;
     color:#fc3f00;
 `
@@ -9,7 +8,8 @@ export const TextContainer = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    grid-area: col1;
+    align-self:flex-start;
+    grid-area: text;
     width:100%;
     height:100%;
 `
@@ -27,7 +27,7 @@ export const TextWrapper = styled.div`
 export const TextHeader = styled.h2`
     color:black;
     padding:5px 0;
-    font-size: 32px;
+    font-size: 2rem;
 `
 
 export const Text = styled.p`
@@ -39,8 +39,9 @@ export const CardWrapper = styled.div`
     display:grid;
     width:auto;
     height:auto;
+    grid-area: card;
     grid-template-columns: 200px 200px;
-    grid-gap: 40px;
+    grid-gap: 30px;
     grid-template-rows: 240px 240px;
     justify-content: center;
     align-content: center;
@@ -52,13 +53,50 @@ export const ServiceContainer = styled.div`
     margin: 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas:'col1 col2';
+    grid-template-areas:'text card';
     justify-content:center;
     align-content: center;
     border-bottom: 3px solid #d9d9d9;
 
-    @media (max-width:1200px){}
-    @media (max-width:992px){}
-    @media (max-width:768px){}
+    @media (max-width:1200px){
+        ${CardWrapper}{
+            grid-gap:5px;
+            margin-left: 20px;
+        }
+        ${TextSubHeading}{font-size:1rem;}
+        ${TextHeader}{font-size:2rem}
+        ${Text}{font-size:1rem}
+        ${TextWrapper}{max-width:300px}
+    }
+    @media (max-width:992px){
+        ${CardWrapper}{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom:60px;
+            margin-left:0;
+        }
+        ${TextSubHeading}{font-size:1rem;}
+        ${TextHeader}{font-size:2rem}
+        ${Text}{font-size:1rem}
+        ${TextWrapper}{max-width:500px;}
+
+        grid-template-rows:auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:'card' 'text';
+        justify-content: center;
+        align-content: center;
+        grid-gap: 20px;
+    }
+    @media (max-width:768px){
+        ${CardWrapper}{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            justify-content: center;
+            align-content: center;
+            margin:0 auto 20px auto;
+        }
+    }
     @media (max-width:576px){}
 `

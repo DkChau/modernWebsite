@@ -9,28 +9,25 @@ import styled from 'styled-components';
 export const CardImage = styled.img`
     width:75px;
     height:auto;
-    padding: 30px 0;
     max-height: 100px;
 `
 
 export const CardHeading = styled.p`
-    font-size: 24px;
-    padding:10px;
+    font-size: 1.5rem;
+    padding:10px 0;
 `
 
 export const CardLink = styled.p`
     font-family: 'Open Sans';
-    font-size:18px;
 `
 export const CardContainer = styled.div`
     display:flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     box-shadow: 2px 2px 12px 3px rgba(0, 0, 0, 0.2);
     align-items: center;
     width:200px;
     border-radius: 20px;
-    padding-top: 20px;;
     background-color: white;
     height:240px;
     color:black;
@@ -42,9 +39,26 @@ export const CardContainer = styled.div`
     }
     @media (max-width:1200px){
         width:180px; 
-        height:220px;
+        height:210px;
     }
-    @media (max-width:992px){}
-    @media (max-width:768px){}
-    @media (max-width:576px){}
+    @media (max-width:992px){
+        width:150px;
+        height:190px;
+        margin:0 10px;
+        ${CardHeading}{}
+        ${CardLink}{}
+        ${CardImage}
+    }
+    @media (max-width:768px){
+        width:200px;
+        height:125px;
+        border-radius: 10px;
+        ${CardHeading}{}
+        ${CardLink}{}
+        ${CardImage}{}
+    }
+    @media (max-width:576px){
+        width:175px;
+        height:100px;
+    }
 `

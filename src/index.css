@@ -7,8 +7,7 @@
     margin: 0;
 }
 body{
-    width:100vw;
-    overflow-x: hidden;
+    width:calc(100vw - 12px);
     font-family: 'Raleway', 'Open Sans', sans-serif;
 }
 html{

@@ -7,10 +7,10 @@ import {
     // ImageWrapper
 } from './CardElements'
 
-const Card = () => {
+const Card = (props) => {
     return (
         <CardContainer>
-            <CardImage src={require("../../Images/Team.svg").default}></CardImage>
+            <CardImage src={require("../../Images/Services/"+props.loc+'.svg').default}></CardImage>
             <CardHeading>Test</CardHeading>
             <CardLink>Learn more</CardLink>
         </CardContainer>
