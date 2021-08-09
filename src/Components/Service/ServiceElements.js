@@ -50,6 +50,7 @@ export const ServiceContainer = styled.div`
     height:100vh;
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 40px;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas:'card text';
