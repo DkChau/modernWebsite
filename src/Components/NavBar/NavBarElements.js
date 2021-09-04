@@ -8,7 +8,7 @@ export const SignUp = styled.div`
     align-items: center;
     width:auto;
     border:1px solid black;
-    height:40px;
+    height:50%;
     align-self: center;
 
     @media screen and (max-width:768px){
@@ -30,7 +30,7 @@ export const LogoWrapper = styled.div`
 export const Logo = styled.h1` //Actually A Link
 
     color:black; //Design
-    font-size:45px;
+    font-size:3rem;
     font-weight: 300;
 `
 
@@ -84,7 +84,7 @@ export const MobileIcon = styled.div`
     display:none;
     justify-content: center;
     align-items: center;
-    font-size:32px;
+    font-size:2rem;
     cursor:pointer;
 
     @media screen and (max-width:768px){
@@ -94,11 +94,11 @@ export const MobileIcon = styled.div`
 
 export const NavContainer = styled.div`
     width:100%;
-    height:100px;
+    height:12.5%;
     margin: 0 auto;
     position:fixed;
     top:0; 
-    padding: 0 80px;
+    padding: 0 8%;
     display: grid;
     grid-template-columns: auto 1fr auto;
     justify-content: center;
@@ -112,20 +112,20 @@ export const NavContainer = styled.div`
         font-size: 0.9rem;
 
         h1{
-            font-size:32px;
+            font-size:2rem;
         }
 
         ${SignUp}{
-            font-size:12px;
+            font-size:.75rem;
         }
 
     }
 
     @media screen and (max-width:768px)
     {
-        padding:0 40px;
+        padding:0 10%;
         h1{
-            font-size:34px;
+            font-size:2rem;
         }
     }
 `

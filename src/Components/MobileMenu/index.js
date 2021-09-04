@@ -13,8 +13,8 @@ const MobileMenu = (props) => {
     }
     return (
         <MenuContainer open={props.open}>
-            <CrossIcon onClick={props.toggle}>
-                <FaTimes></FaTimes>
+            <CrossIcon>
+                <FaTimes onClick={props.toggle}></FaTimes>
             </CrossIcon>
             <Menu>
             <MenuLink>

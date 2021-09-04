@@ -25,8 +25,8 @@ export const CrossIcon = styled.div`
     justify-content: flex-end;
     align-items:center;
     height:100%;
-    font-size: 32px;
-    padding:0 40px;
+    font-size: 2rem;
+    padding:0 10%;
     color:#f2674d;
     &:hover{
         opacity:0.6;

@@ -1,17 +1,16 @@
 import React from 'react'
 import {
     FooterContainer,
-    InformationWrapper,
-    Logo,
-    LogoWrapper,
-    LogoText,
-    Link,
+    FooterWrapper,
     LinkWrapper,
-    LinkList,
-    LinkTitle,
+    LogoWrapper,
+    ContentWrapper,
     SocialWrapper,
+    Logo,
     Socials,
-    Item
+    Link,
+    LinkItem,
+    Category
 
 } from './FooterElements'
 import {
@@ -25,54 +24,45 @@ import {
 const index = () => {
     return (
         <FooterContainer>
-            <InformationWrapper>
+            <FooterWrapper>
                 <LogoWrapper>
                     <Logo>DKC</Logo>
-                    <LogoText>asdadsadas</LogoText>
                 </LogoWrapper>
-                <LinkWrapper>
-                    <LinkList>
-                        <LinkTitle>Services</LinkTitle>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                    </LinkList>
-                    <LinkList>
-                        <LinkTitle>Careers</LinkTitle>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                    </LinkList>
-                    <LinkList>
-                        <LinkTitle>Learn More</LinkTitle>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                        <Link>Ex Test</Link>
-                    </LinkList>
-                </LinkWrapper>
-            </InformationWrapper>
-            <Socials>
-                <SocialWrapper>
-                    <Item>
-                        <TiSocialGithub></TiSocialGithub>
-                    </Item> 
-                    <Item>
-                        <TiSocialTwitter></TiSocialTwitter>
-                    </Item> 
-                    <Item>
-                        <TiSocialYoutube></TiSocialYoutube>
-                    </Item> 
-                    <Item>
-                        <TiSocialFacebook/>
-                    </Item> 
-                    <Item>
-                        <TiSocialInstagram/>
-                    </Item> 
-                </SocialWrapper>
-            </Socials>
+                <ContentWrapper>
+                    <LinkWrapper>
+                        <LinkItem>
+                            <Category>Test</Category>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Category>Test</Category>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Category>Test</Category>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                        </LinkItem>
+                    </LinkWrapper>
+                    <SocialWrapper>
+                        <Socials>
+                            <TiSocialFacebook/>
+                            <TiSocialGithub/>
+                            <TiSocialInstagram/>
+                            <TiSocialYoutube/>
+                            <TiSocialTwitter/>
+                        </Socials>
+                    </SocialWrapper>
+                </ContentWrapper>
+            </FooterWrapper>
         </FooterContainer>
     )
 }

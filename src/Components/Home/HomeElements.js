@@ -60,36 +60,51 @@ export const HomeContainer = styled.div`
     }
 
     @media screen and (max-width:992px){
-        grid-gap:40px;
+        grid-gap:20px;
+        padding-top: 10%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'picture' 'text';
+        justify-content: center;
+        align-content: center;
+        ${ImageWrapper}{
+            grid-area:picture;
+        }
         ${TextTitle}{
-            font-size:32px;
+            font-size:2.5rem;
         }
         ${TextWrapper}{
-            max-width:300px;
-            font-size:.8rem;
+            max-width:700px;
+            width:90%;
+            font-size:1rem;
+            text-align: center;
+            justify-self: center;
+            justify-content: center;
+            align-items: center;
+            grid-area:text;
         }
         ${HomeImage}{
-            width:275px;
+            margin-left: 35px;
+            width:250px;
             height:auto;
-            max-height:500px;
+            max-height:400px;
         }
     }
 
     @media screen and (max-width:768px){
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr;
         padding-top: 150px;
         grid-template-rows: auto 1fr;
-        grid-template-areas: 'row1' 'row2';
+        grid-template-areas: 'picture' 'text';
         justify-content: center;
         align-content: center;
-        grid-gap: 0;;
+        grid-gap: 0;; */
 
         ${TextTitle}{
             font-size:2.5rem;
         }
         ${TextWrapper}{
             max-width:500px;
-            grid-area:row2;
+            grid-area:text;
             font-size:.9rem;
             margin:0 auto;
             width:100%;
@@ -101,13 +116,13 @@ export const HomeContainer = styled.div`
         }
     }
     @media screen and (max-width:576px){
-        padding-top: 175px;
+        padding-top: 15%;
         ${TextTitle}{
             font-size:2rem;
         }
         ${TextWrapper}{
             max-width:500px;
-            grid-area:row2;
+            grid-area:text;
             font-size:0.8rem;
             margin:0 auto;
             width:100%;
