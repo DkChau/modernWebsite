@@ -14,7 +14,7 @@ export const FooterWrapper = styled.div`
     width:80%;
     height:100%;
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     grid-template-rows: 1fr;
     justify-content: center;
     align-content: center;
@@ -37,19 +37,24 @@ export const ContentWrapper = styled.div`
     align-content: center;
 `
 export const LinkWrapper = styled.div`
+    width:70%;
+    max-width:800px;
+    margin:0 auto;
     display:flex;
     justify-content:space-around;
     align-items: center;
 `
 export const LinkItem = styled.div`
+    text-align:center;
     margin:0 20px;
 `
 export const Category = styled.p`
-    color:green;
+    color:#f2674d;
     font-size:1.5rem;
+    padding:10px 0;
 `
 export const Link = styled.p`
-    padding:2px 0;
+    padding:3px 0;
 `
 export const SocialWrapper = styled.div`
     display:flex;

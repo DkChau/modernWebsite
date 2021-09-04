@@ -55,11 +55,11 @@ export const LearnImage = styled.img`
     width:75px;
     height:auto;
     max-height: 75px;
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 `
 
 export const LearnSubHead = styled.h3`
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
 `
 
 export const LearnDescription = styled.p`
