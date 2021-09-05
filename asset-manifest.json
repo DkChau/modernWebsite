@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/modernWebsite/static/css/main.5e8fdc23.chunk.css",
+    "main.js": "/modernWebsite/static/js/main.fa8f7d65.chunk.js",
+    "main.js.map": "/modernWebsite/static/js/main.fa8f7d65.chunk.js.map",
+    "runtime-main.js": "/modernWebsite/static/js/runtime-main.48d7c3d8.js",
+    "runtime-main.js.map": "/modernWebsite/static/js/runtime-main.48d7c3d8.js.map",
+    "static/js/2.5a76e57f.chunk.js": "/modernWebsite/static/js/2.5a76e57f.chunk.js",
+    "static/js/2.5a76e57f.chunk.js.map": "/modernWebsite/static/js/2.5a76e57f.chunk.js.map",
+    "index.html": "/modernWebsite/index.html",
+    "static/css/main.5e8fdc23.chunk.css.map": "/modernWebsite/static/css/main.5e8fdc23.chunk.css.map",
+    "static/js/2.5a76e57f.chunk.js.LICENSE.txt": "/modernWebsite/static/js/2.5a76e57f.chunk.js.LICENSE.txt",
+    "static/media/Board.svg": "/modernWebsite/static/media/Board.598b5d60.svg",
+    "static/media/Bulb.svg": "/modernWebsite/static/media/Bulb.58073c2e.svg",
+    "static/media/Calendar.svg": "/modernWebsite/static/media/Calendar.1857c5b3.svg",
+    "static/media/Graph.svg": "/modernWebsite/static/media/Graph.a6b72484.svg",
+    "static/media/GuyCat.svg": "/modernWebsite/static/media/GuyCat.4601981c.svg",
+    "static/media/Javascript.svg": "/modernWebsite/static/media/Javascript.6d217b44.svg",
+    "static/media/Mail.svg": "/modernWebsite/static/media/Mail.207a219b.svg",
+    "static/media/Pencil.svg": "/modernWebsite/static/media/Pencil.10006908.svg",
+    "static/media/Ribbon.svg": "/modernWebsite/static/media/Ribbon.77b7de35.svg",
+    "static/media/Rocket.svg": "/modernWebsite/static/media/Rocket.13597cee.svg",
+    "static/media/Trophy.svg": "/modernWebsite/static/media/Trophy.c82b2b35.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48d7c3d8.js",
+    "static/js/2.5a76e57f.chunk.js",
+    "static/css/main.5e8fdc23.chunk.css",
+    "static/js/main.fa8f7d65.chunk.js"
+  ]
+}
