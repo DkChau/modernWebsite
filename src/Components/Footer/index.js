@@ -27,31 +27,6 @@ const index = () => {
             <FooterWrapper>
                 <LogoWrapper>
                     <Logo>DKC</Logo>
-                </LogoWrapper>
-                <ContentWrapper>
-                    <LinkWrapper>
-                        <LinkItem>
-                            <Category>Test</Category>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Category>Test</Category>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                        </LinkItem>
-                        <LinkItem>
-                            <Category>Test</Category>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                        </LinkItem>
-                    </LinkWrapper>
                     <SocialWrapper>
                         <Socials>
                             <TiSocialFacebook/>
@@ -61,6 +36,28 @@ const index = () => {
                             <TiSocialTwitter/>
                         </Socials>
                     </SocialWrapper>
+                </LogoWrapper>
+                <ContentWrapper>
+                    <LinkWrapper>
+                        <LinkItem>
+                            <Category>News & Info</Category>
+                            <Link>Press Releases</Link>
+                            <Link>Product Manuals</Link>
+                            <Link>Newsletter Sign Up</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Category>Other Sites</Category>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                            <Link>Link test</Link>
+                        </LinkItem>
+                        <LinkItem>
+                            <Category>Learn More</Category>
+                            <Link>DKC Products</Link>
+                            <Link>FAQ</Link>
+                        </LinkItem>
+                    </LinkWrapper>
                 </ContentWrapper>
             </FooterWrapper>
         </FooterContainer>
