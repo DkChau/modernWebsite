@@ -17,14 +17,14 @@ const MobileMenu = (props) => {
                 <FaTimes onClick={props.toggle}></FaTimes>
             </CrossIcon>
             <Menu>
-            <MenuLink>
+                <MenuLink>
                     <Link onClick={toggleMenu} to='home'>Home</Link>
                 </MenuLink>
                 <MenuLink>
                     <Link onClick={toggleMenu} to='about'>About Us</Link>
                 </MenuLink>
                 <MenuLink>
-                    <Link onClick={toggleMenu} to='careers'>Discover</Link>
+                    <Link onClick={toggleMenu} to='careers'>Careers</Link>
                 </MenuLink>
                 <MenuLink>
                     <Link onClick={toggleMenu} to='services'>Services</Link>

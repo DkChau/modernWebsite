@@ -45,7 +45,7 @@ export const MenuLink = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    padding:40px 0;
+    padding:20px 0;
     font-size: 1.5rem;
     color:#f2674d;
 
