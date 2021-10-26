@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/modernWebsite/static/css/main.a9d70d44.chunk.css",
-    "main.js": "/modernWebsite/static/js/main.046f7d90.chunk.js",
-    "main.js.map": "/modernWebsite/static/js/main.046f7d90.chunk.js.map",
+    "main.css": "/modernWebsite/static/css/main.e914401c.chunk.css",
+    "main.js": "/modernWebsite/static/js/main.a934ca21.chunk.js",
+    "main.js.map": "/modernWebsite/static/js/main.a934ca21.chunk.js.map",
     "runtime-main.js": "/modernWebsite/static/js/runtime-main.48d7c3d8.js",
     "runtime-main.js.map": "/modernWebsite/static/js/runtime-main.48d7c3d8.js.map",
     "static/js/2.5a76e57f.chunk.js": "/modernWebsite/static/js/2.5a76e57f.chunk.js",
     "static/js/2.5a76e57f.chunk.js.map": "/modernWebsite/static/js/2.5a76e57f.chunk.js.map",
     "index.html": "/modernWebsite/index.html",
-    "static/css/main.a9d70d44.chunk.css.map": "/modernWebsite/static/css/main.a9d70d44.chunk.css.map",
+    "static/css/main.e914401c.chunk.css.map": "/modernWebsite/static/css/main.e914401c.chunk.css.map",
     "static/js/2.5a76e57f.chunk.js.LICENSE.txt": "/modernWebsite/static/js/2.5a76e57f.chunk.js.LICENSE.txt",
     "static/media/Board.svg": "/modernWebsite/static/media/Board.598b5d60.svg",
     "static/media/Bulb.svg": "/modernWebsite/static/media/Bulb.58073c2e.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.48d7c3d8.js",
     "static/js/2.5a76e57f.chunk.js",
-    "static/css/main.a9d70d44.chunk.css",
-    "static/js/main.046f7d90.chunk.js"
+    "static/css/main.e914401c.chunk.css",
+    "static/js/main.a934ca21.chunk.js"
   ]
 }
