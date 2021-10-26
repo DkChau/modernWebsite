@@ -1,15 +1,8 @@
 import styled from 'styled-components';
 
-// export const ImageWrapper = styled.div`
-//     width:auto;
-//     height:90px;
-//     background-color: white;
-//     border-radius: 50px;
-// `
 export const CardImage = styled.img`
-    width:75px;
+    width:4.688rem;
     height:auto;
-    max-height: 100px;
 `
 
 export const CardHeading = styled.p`
@@ -26,10 +19,10 @@ export const CardContainer = styled.div`
     justify-content: center;
     box-shadow: 2px 2px 12px 3px rgba(0, 0, 0, 0.2);
     align-items: center;
-    width:200px;
+    width:12.5rem;
     border-radius: 20px;
     background-color: white;
-    height:240px;
+    height:15rem;
     color:black;
     transition: 0.3s ease-in-out;
 
@@ -38,31 +31,31 @@ export const CardContainer = styled.div`
         color:black;
     }
     @media (max-width:1200px){
-        width:180px; 
-        height:210px;
+        width:11rem; 
+        height:13rem;
     }
     @media (max-width:992px){
-        width:150px;
-        height:190px;
+        width:10rem;
+        height:13rem;
         margin:0 10px;
-        ${CardHeading}{}
-        ${CardLink}{}
+        ${CardHeading}{font-size:1.3rem}
+        ${CardLink}{font-size:.9rem;}
         ${CardImage}{}
     }
     @media (max-width:768px){
-        width:200px;
-        height:125px;
+        width:13.5rem;
+        height:8rem;
         margin:10px;
         border-radius: 10px;
         ${CardHeading}{font-size:1rem; padding:3px 0;}
         ${CardLink}{font-size:.9rem;}
-        ${CardImage}{width:50px;}
+        ${CardImage}{width:3rem;}
     }
     @media (max-width:576px){
-        width:125px;
-        height:100px;
+        width:10rem;
+        height:7rem;
         ${CardHeading}{font-size:.9rem; padding:0}
         ${CardLink}{font-size:.8rem}
-        ${CardImage}{width:50px;}
+        ${CardImage}{width:2.8rem;}
     }
 `

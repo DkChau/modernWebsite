@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
 export const TextSubHeading=styled.h4`
-    font-weight: 300;
     color:#fc3f00;
+    font-size:1.1rem;
 `
 export const TextContainer = styled.div`
     display:flex;
@@ -15,7 +15,7 @@ export const TextContainer = styled.div`
 `
 export const TextWrapper = styled.div`
     display:flex;
-    width:auto;
+    width:90%;
     max-width:400px;
     height:auto;
     flex-direction: column;
@@ -25,12 +25,12 @@ export const TextWrapper = styled.div`
 
 export const TextHeader = styled.h2`
     color:black;
-    padding:5px 0;
-    font-size: 2rem;
+    padding:5px 0 0 0; 
+    font-size: 2.1rem;
 `
 
 export const Text = styled.p`
-    margin-top: 20px;
+    padding:20px 0;
     color:black;
     font-family:'Open Sans';
 `
@@ -39,16 +39,16 @@ export const CardWrapper = styled.div`
     width:auto;
     height:auto;
     grid-area: card;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 12.5rem 12.5rem;
     grid-gap: 30px;
-    grid-template-rows: 240px 240px;
+    grid-template-rows: 15rem 15rem;
     justify-content: center;
     align-content: center;
 `
 export const ServiceContainer = styled.div`
     width:80%;
     height:100vh;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     padding-top: 40px;
     display:grid;
@@ -60,12 +60,11 @@ export const ServiceContainer = styled.div`
 
     @media (max-width:1200px){
         ${CardWrapper}{
-            grid-gap:5px;
-            margin-left: 20px;
+            grid-gap:7px;
         }
-        ${TextSubHeading}{font-size:1rem;}
-        ${TextHeader}{font-size:2rem}
-        ${Text}{font-size:1rem}
+        ${TextSubHeading}{font-size:.9rem;}
+        ${TextHeader}{font-size:1.8rem}
+        ${Text}{font-size:.9rem}
         ${TextWrapper}{max-width:340px}
     }
     @media (max-width:992px){
@@ -73,13 +72,13 @@ export const ServiceContainer = styled.div`
             display:flex;
             justify-content: center;
             align-items: center;
-            margin-bottom:60px;
+            margin-bottom:40px;
             margin-left:0;
         }
-        ${TextSubHeading}{font-size:1.2rem}
-        ${TextHeader}{font-size:2rem}
-        ${Text}{font-size:1.2rem}
-        ${TextWrapper}{max-width:600px}
+        ${TextSubHeading}{font-size:1rem}
+        ${TextHeader}{font-size:1.8rem}
+        ${Text}{font-size:1rem}
+        ${TextWrapper}{max-width:800px}
 
         grid-template-rows:auto auto;
         grid-template-columns: 1fr;
@@ -92,7 +91,7 @@ export const ServiceContainer = styled.div`
         ${TextSubHeading}{font-size:1rem}
         ${TextHeader}{font-size:1.8rem}
         ${Text}{font-size:1rem}
-        ${TextWrapper}{max-width:600px}
+        ${TextWrapper}{max-width:700px}
         ${CardWrapper}{
             display:grid;
             grid-template-columns: 1fr 1fr;

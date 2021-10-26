@@ -15,7 +15,7 @@ export const TextSubHeading=styled.h4`
 export const TextWrapper = styled.div`
     display:flex;
     width:auto;
-    max-width:400px;
+    max-width:360px;
     height:auto;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +24,12 @@ export const TextWrapper = styled.div`
 
 export const TextHeader = styled.h2`
     color:black;
-    padding:5px 0;
+    padding:5px 0 0 0;
     font-size: 2.1rem;
 `
 
 export const Text = styled.p`
-    margin-top: 20px;
+    padding:20px 0;
     color:black;
     font-size:1.1rem;
     font-family:'Open Sans';
@@ -43,14 +43,14 @@ export const ImageWrapper = styled.div`
 `
 
 export const Image = styled.img`
-    width:485px;
+    width:29rem;
     height:auto;
-    max-height:300px;
+
 `
 export const InfoContainer = styled.div`
     width:80%;
     height:100vh;
-    max-width: 1200px;
+    max-width: 75rem;
     margin: 0 auto;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -64,37 +64,37 @@ export const InfoContainer = styled.div`
         ${TextHeader}{font-size:2rem}
         ${Text}{font-size:1rem}
         ${TextWrapper}{max-width:340px}
-        ${Image}{width:400px;}
+        ${Image}{width:25rem;}
     }
     @media (max-width:992px){
         grid-template-areas: 'picture' 'text';
         grid-template-columns: 1fr;
         grid-gap: 40px;
 
-        ${TextSubHeading}{font-size:1.2rem}
-        ${TextHeader}{font-size:2rem}
-        ${Text}{font-size:1.2rem}
+        ${TextSubHeading}{font-size:1rem}
+        ${TextHeader}{font-size:1.8rem}
+        ${Text}{font-size:1rem}
         ${TextWrapper}{max-width:600px}
         ${Image}{
-            width:380px;
+            width:23.75rem;
         }
     }
     @media (max-width:768px){
         ${TextSubHeading}{font-size:1rem}
         ${TextHeader}{font-size:1.8rem}
         ${Text}{font-size:1rem}
-        ${TextWrapper}{max-width:600px}
+        ${TextWrapper}{max-width:525px}
         ${Image}{
-            width:350px;
+            width:22.5rem;
         }
     }
     @media (max-width:576px){
-        ${TextSubHeading}{font-size:.8rem}
-        ${TextHeader}{font-size:1.6rem}
-        ${Text}{font-size:.8rem}
+        ${TextSubHeading}{font-size:.85rem}
+        ${TextHeader}{font-size:1.7rem}
+        ${Text}{font-size:.9rem}
         ${TextWrapper}{max-width:400px}
         ${Image}{
-            width:300px;
+            width:21rem;
         }
     }
 `

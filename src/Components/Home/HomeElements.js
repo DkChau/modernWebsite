@@ -4,14 +4,16 @@ export const TextWrapper = styled.div`
     display:flex;
     width:100%;
     height:100%;
-    max-width: 500px;
+    max-width: 31.25rem;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    text-align:center;
+    justify-self:center;
 `
 export const TextTitle = styled.h1`
     color:black;
-    font-size: 50px;
+    font-size: 3.125rem;
     padding:30px 0 0 0;
 `
 export const TextDescription = styled.p`
@@ -27,14 +29,14 @@ export const ImageWrapper = styled.div`
     justify-content: center;
 `
 export const HomeImage = styled.img`
-    width:400px;
+    width:25rem;
     height:auto;
-    max-height:550px;
+    max-height:53.125rem;
 `
 
 export const HomeContainer = styled.div`
     width:80%;
-    max-width:1200px;
+    max-width:75rem;
     height:100vh;
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -46,16 +48,16 @@ export const HomeContainer = styled.div`
 
     @media screen and (max-width:1200px){
         ${TextTitle}{
-            font-size:42px;
+            font-size:2.625rem;
         }
         ${TextWrapper}{
             max-width:400px;
             font-size:.9rem;
         }
         ${HomeImage}{
-            width:350px;
+            width:25rem;
             height:auto;
-            max-height:500px;
+            max-height:31.25rem;
         }
     }
 
@@ -73,7 +75,7 @@ export const HomeContainer = styled.div`
             font-size:2.5rem;
         }
         ${TextWrapper}{
-            max-width:700px;
+            max-width:43.75rem;
             width:90%;
             font-size:1rem;
             text-align: center;
@@ -84,35 +86,27 @@ export const HomeContainer = styled.div`
         }
         ${HomeImage}{
             margin-left: 35px;
-            width:250px;
+            width:20rem;
             height:auto;
-            max-height:400px;
+            max-height:25rem;
         }
     }
 
     @media screen and (max-width:768px){
-        /* grid-template-columns: 1fr;
-        padding-top: 150px;
-        grid-template-rows: auto 1fr;
-        grid-template-areas: 'picture' 'text';
-        justify-content: center;
-        align-content: center;
-        grid-gap: 0;; */
-
         ${TextTitle}{
             font-size:2.5rem;
         }
         ${TextWrapper}{
-            max-width:500px;
+            max-width:470px;
             grid-area:text;
             font-size:.9rem;
             margin:0 auto;
             width:100%;
         }
         ${HomeImage}{
-            width:250px;
+            width:20rem;
             height:auto;
-            max-height:500px;
+            max-height:31.25rem;
         }
     }
     @media screen and (max-width:576px){
@@ -121,19 +115,19 @@ export const HomeContainer = styled.div`
             font-size:2rem;
         }
         ${TextWrapper}{
-            max-width:500px;
+            max-width:31.25rem;
             grid-area:text;
-            font-size:0.8rem;
+            font-size:.85rem;
             margin:0 auto;
             width:100%;
         }
         ${TextDescription}{
-            padding:20px 0 0 0;
+            padding:20px 0;
         }
         ${HomeImage}{
-            width:200px;
+            width:19rem;
             height:auto;
-            max-height:500px;
+            max-height:31.25rem;
         }
     }
 `
