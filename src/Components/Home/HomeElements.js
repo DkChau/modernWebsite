@@ -4,7 +4,7 @@ export const TextWrapper = styled.div`
     display:flex;
     width:100%;
     height:100%;
-    max-width: 31.25rem;
+    max-width: 34.25rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -13,13 +13,14 @@ export const TextWrapper = styled.div`
 `
 export const TextTitle = styled.h1`
     color:black;
-    font-size: 3.125rem;
+    font-size: 2.8rem;
     padding:30px 0 0 0;
 `
 export const TextDescription = styled.p`
     font-family:'Open Sans';
     color:black;
-    padding:30px 0;
+    padding:20px 0;
+    font-size:1.1rem;
 `
 export const ImageWrapper = styled.div`
     width: 100%;
@@ -48,16 +49,17 @@ export const HomeContainer = styled.div`
 
     @media screen and (max-width:1200px){
         ${TextTitle}{
-            font-size:2.625rem;
+            font-size:2.3rem;
         }
         ${TextWrapper}{
-            max-width:400px;
-            font-size:.9rem;
+            max-width:33rem;;
+        }
+        ${TextDescription}{
+            font-size:1rem;
         }
         ${HomeImage}{
-            width:25rem;
+            width:21rem;
             height:auto;
-            max-height:31.25rem;
         }
     }
 
@@ -76,8 +78,7 @@ export const HomeContainer = styled.div`
         }
         ${TextWrapper}{
             max-width:43.75rem;
-            width:90%;
-            font-size:1rem;
+            width:100%;
             text-align: center;
             justify-self: center;
             justify-content: center;
@@ -97,14 +98,13 @@ export const HomeContainer = styled.div`
             font-size:2.5rem;
         }
         ${TextWrapper}{
-            max-width:470px;
+            max-width:42rem;
             grid-area:text;
-            font-size:.9rem;
             margin:0 auto;
             width:100%;
         }
         ${HomeImage}{
-            width:20rem;
+            width:19rem;
             height:auto;
             max-height:31.25rem;
         }
@@ -115,17 +115,16 @@ export const HomeContainer = styled.div`
             font-size:2rem;
         }
         ${TextWrapper}{
-            max-width:31.25rem;
+            max-width:38.25rem;
             grid-area:text;
-            font-size:.85rem;
             margin:0 auto;
             width:100%;
         }
         ${TextDescription}{
-            padding:20px 0;
+            font-size:.85rem;
         }
         ${HomeImage}{
-            width:19rem;
+            width:18rem;
             height:auto;
             max-height:31.25rem;
         }

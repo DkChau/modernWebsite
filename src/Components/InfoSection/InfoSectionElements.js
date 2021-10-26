@@ -64,7 +64,7 @@ export const InfoContainer = styled.div`
         ${TextHeader}{font-size:2rem}
         ${Text}{font-size:1rem}
         ${TextWrapper}{max-width:340px}
-        ${Image}{width:25rem;}
+        ${Image}{width:24rem;}
     }
     @media (max-width:992px){
         grid-template-areas: 'picture' 'text';
