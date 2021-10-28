@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 export const TextSubHeading=styled.h4`
     color:#f2674d;
+    font-size:1.1rem;
 `
 export const TextContainer = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-bottom:50px;
+    margin-bottom:3.125rem;
 `
 export const TextWrapper = styled.div`
     display:flex;
@@ -20,21 +21,21 @@ export const TextWrapper = styled.div`
 `
 
 export const TextHeader = styled.h2`
-    padding:5px 0;
-    font-size: 2rem;
+    padding:5px 0 0 0;
+    font-size: 2.1rem;
 `
 
 export const Text = styled.p`
-    margin-top: 20px;
+    padding:20px 0;
     font-family:'Open Sans';
 `
 
 export const LearnWrapper = styled.div`
     display:flex;
     width:100%;
+    margin-bottom:30px;
     height:auto;
     grid-area:images;
-    margin-bottom: 40px;
     justify-content: space-between;
     align-items: center;
     
@@ -45,16 +46,11 @@ export const SingleLearn = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* margin:20px 0px 50px 0;
-    margin-right: 100px;
-    padding:10px; */
 
 `
 
 export const LearnImage = styled.img`
-    width:75px;
-    height:auto;
-    max-height: 75px;
+    height:4.8rem;
     margin-bottom: 10px;
 `
 
@@ -77,63 +73,62 @@ export const LearnContainer = styled.div`
     display:flex;
     width:80%;
     height:100vh;
-    max-width: 1200px;
+    max-width: 75rem;
     margin:0 auto;
-    padding-top: 150px;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     color:black;
 
     @media (max-width:992px){
         display:grid;
-        grid-template-rows: auto auto;
+        padding-top:6.25%;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns:1fr;
         grid-template-areas: 'images' 'text' 'button';
-        justify-content: start;
-        align-content: start;
-        grid-gap: 60px;
-        ${LearnImage}{}
+        ${LearnWrapper}{margin-bottom:0; align-self:center;}
+        ${LearnImage}{height:3.9rem}
         ${LearnSubHead}{font-size:1.1rem;}
         ${LearnDescription}{max-width:115px; font-size:.9rem;}
-        ${TextSubHeading}{font-size:1.2rem}
-        ${TextHeader}{font-size:2rem}
-        ${Text}{font-size:1.2rem}
-        ${TextWrapper}{max-width:600px}
+        ${TextSubHeading}{font-size:1rem}
+        ${TextHeader}{font-size:1.8rem}
+        ${Text}{font-size:1rem}
+        ${TextWrapper}{max-width:700px}
         ${OuterButton}{display:none;}
         ${InnerButton}{display:flex;}
     }
     @media (max-width:768px){
-        ${LearnImage}{max-width:65px; height:65px;}
+        ${LearnImage}{height:3.8rem;}
         ${LearnSubHead}{font-size:.9rem;}
-        ${LearnDescription}{max-width:100px; font-size:.8rem;}
-        ${TextSubHeading}{font-size:1rem}
-        ${TextHeader}{font-size:1.8rem}
-        ${Text}{font-size:1rem}
+        ${LearnDescription}{max-width:90px; font-size:.8rem;}
+        ${TextSubHeading}{font-size:.9rem}
+        ${TextHeader}{font-size:1.7rem}
+        ${Text}{font-size:.85rem}
         ${TextWrapper}{max-width:600px}
     }
     @media (max-width:576px){
-        ${LearnImage}{max-width:50px; height:50px;}
+        padding-top:12.5%;
+        ${LearnImage}{height:3.125rem;}
         ${LearnSubHead}{font-size:.8rem;}
         ${LearnDescription}{display:none;}
         ${SingleLearn}{
             box-shadow: 2px 2px 12px 3px rgba(0, 0, 0, 0.2);
             border-radius:15px;
-            height:100px;
+            height:6.25rem;
+            width:95%;
+            justify-self:center;
         }
         ${LearnWrapper}{
             display:grid;
             grid-template-rows:1fr 1fr;
             grid-template-columns: 1fr 1fr;
-            grid-gap: 20px;
             justify-content: center;
             align-content: center;
+            grid-gap:20px;
         }
         ${TextSubHeading}{font-size:.8rem}
         ${TextHeader}{font-size:1.6rem}
         ${Text}{font-size:.8rem}
-        ${TextWrapper}{max-width:400px}
-        grid-gap: 10px;
-        padding-top:100px;
+        ${TextWrapper}{max-width:400px; justify-self:center;}
     }
 `
