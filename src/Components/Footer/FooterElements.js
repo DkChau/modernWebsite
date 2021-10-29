@@ -5,14 +5,11 @@ export const FooterWrapper = styled.div`
     height:100%;
     display:grid;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: auto;
     grid-template-areas:"logo content";
-    justify-content: center;
     align-content: center;
 
 `
 export const LogoWrapper = styled.div`
-    width:100%;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -21,22 +18,18 @@ export const LogoWrapper = styled.div`
 `
 export const Logo = styled.p`
     font-size:4rem;
+    padding-bottom: 15px;
 `
 export const ContentWrapper = styled.div`
-    display:grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-content: center;
+    display:flex;
     grid-area:content;
 `
 export const LinkWrapper = styled.div`
-    width:80%;
+    width:90%;
     max-width:700px;
     margin:0 auto;
     display:flex;
     justify-content:space-around;
-    align-items: center;
 `
 export const LinkItem = styled.div`
     text-align:center;
@@ -48,7 +41,7 @@ export const LinkItem = styled.div`
 export const Category = styled.p`
     color:#f2674d;
     font-size:1.5rem;
-    padding:10px 0;
+    padding: 0 0 10px 0;
 `
 export const Link = styled.p`
     font-weight:300;

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const TextSubHeading=styled.h4`
     color:#fc3f00;
-    font-size:1.1rem;
 `
 export const TextContainer = styled.div`
     display:flex;
@@ -33,6 +32,7 @@ export const Text = styled.p`
     padding:20px 0;
     color:black;
     font-family:'Open Sans';
+    font-size:1.1rem;
 `
 export const CardWrapper = styled.div`
     display:grid;
@@ -62,9 +62,9 @@ export const ServiceContainer = styled.div`
         ${CardWrapper}{
             grid-gap:7px;
         }
-        ${TextSubHeading}{font-size:.9rem;}
-        ${TextHeader}{font-size:1.8rem}
-        ${Text}{font-size:.9rem}
+        ${TextSubHeading}{font-size:.98rem;}
+        ${TextHeader}{font-size:2rem}
+        ${Text}{font-size:1.05rem}
         ${TextWrapper}{max-width:340px}
     }
     @media (max-width:992px){
@@ -75,8 +75,8 @@ export const ServiceContainer = styled.div`
             margin-bottom:40px;
             margin-left:0;
         }
-        ${TextSubHeading}{font-size:1rem}
-        ${TextHeader}{font-size:1.8rem}
+        ${TextSubHeading}{font-size:.96rem}
+        ${TextHeader}{font-size:1.9rem}
         ${Text}{font-size:1rem}
         ${TextWrapper}{max-width:800px}
 
@@ -88,9 +88,9 @@ export const ServiceContainer = styled.div`
         grid-gap: 20px;
     }
     @media (max-width:768px){
-        ${TextSubHeading}{font-size:1rem}
+        ${TextSubHeading}{font-size:.94rem}
         ${TextHeader}{font-size:1.8rem}
-        ${Text}{font-size:1rem}
+        ${Text}{font-size:.95rem}
         ${TextWrapper}{max-width:700px}
         ${CardWrapper}{
             display:grid;
@@ -102,9 +102,9 @@ export const ServiceContainer = styled.div`
         }
     }
     @media (max-width:576px){
-        ${TextSubHeading}{font-size:.8rem}
-        ${TextHeader}{font-size:1.6rem}
-        ${Text}{font-size:.8rem}
+        ${TextSubHeading}{font-size:.92rem}
+        ${TextHeader}{font-size:1.7rem}
+        ${Text}{font-size:.9rem}
         ${TextWrapper}{max-width:400px}
     }
 `
