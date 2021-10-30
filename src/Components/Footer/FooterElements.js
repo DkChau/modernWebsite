@@ -18,7 +18,7 @@ export const LogoWrapper = styled.div`
 `
 export const Logo = styled.p`
     font-size:4rem;
-    padding-bottom: 15px;
+    padding-bottom: 15px; //norm to 1200
 `
 export const ContentWrapper = styled.div`
     display:flex;
@@ -36,16 +36,20 @@ export const LinkItem = styled.div`
     height:100%;
     display:flex;
     flex-direction: column;
-    margin:0 20px;
 `
 export const Category = styled.p`
     color:#f2674d;
     font-size:1.5rem;
     padding: 0 0 10px 0;
+    font-weight:600;
 `
 export const Link = styled.p`
-    font-weight:300;
     padding:3px 0;
+
+    &:hover{
+        text-decoration:underline;
+        cursor:pointer;
+    }
 `
 export const SocialWrapper = styled.div`
     display:flex;
@@ -72,18 +76,9 @@ export const FooterContainer = styled.div`
     background:#f8f7ef;
     transition:all 0.3s ease;
 
-    @media (max-width:1200px){
-        ${FooterWrapper}{
-            grid-template-columns: 1fr 3fr;
-        }
-        ${Category}{
-            font-size:1.2rem;
-        }
-        ${Link}{
-        }
-    }
     @media (max-width:992px){
         ${FooterWrapper}{
+            width:100%;
             grid-template-columns: 1fr;
             grid-template-rows: 3fr 1fr;
             grid-template-areas:    "content"
@@ -91,32 +86,21 @@ export const FooterContainer = styled.div`
         }
         ${LogoWrapper}{
             flex-direction: column-reverse;
-            justify-content: center;
-            align-items: center;
         }
         ${Logo}{
             font-size:2rem;
-            padding: 30px 0;
+            padding: 20px 0;
         }
         ${LinkWrapper}{
-            padding-top:40px;
-        }
-    }
-    @media (max-width:768px){
-        ${FooterWrapper}{
-            width:100%;
-        }
-        ${LinkWrapper}{
-            max-width:80%;
-            width:100%;
+            align-self:center;
         }
     }
     @media (max-width:576px){
         ${Category}{
-            font-size:1rem;
+            font-size:1.05rem;
         }
         ${Link}{
-            font-size:.75rem;
+            font-size:.80rem;
         }
         ${Socials}{
             max-width:300px;

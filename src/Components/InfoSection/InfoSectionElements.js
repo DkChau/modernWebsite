@@ -22,7 +22,7 @@ export const TextHeader = styled.h2`
 export const Text = styled.p`
     padding:20px 0;
     color:black;
-    font-size:1.1rem;
+    font-size:1.2rem;
     font-family:'Open Sans';
 `
 export const ImageWrapper = styled.div`
@@ -47,7 +47,7 @@ export const InfoContainer = styled.div`
     @media (max-width:1200px){
         ${TextSubHeading}{font-size:.98rem}
         ${TextHeader}{font-size:2rem}
-        ${Text}{font-size:1.05rem}
+        ${Text}{font-size:1.15rem}
         ${TextWrapper}{max-width:340px}
         ${Image}{width:26rem;}
     }
@@ -60,22 +60,22 @@ export const InfoContainer = styled.div`
 
         ${TextSubHeading}{font-size:.96rem}
         ${TextHeader}{font-size:1.9rem}
-        ${Text}{font-size:1rem}
+        ${Text}{font-size:1.1rem}
         ${TextWrapper}{max-width:600px; height:100%; align-self:end;}
         ${Image}{height:80%; align-self:end;}
     }
     @media (max-width:768px){
         ${TextSubHeading}{font-size:.94rem}
         ${TextHeader}{font-size:1.8rem}
-        ${Text}{font-size:.95rem}
+        ${Text}{font-size:1.05rem}
         ${TextWrapper}{max-width:500px}
         ${Image}{width:22rem;}
     }
     @media (max-width:576px){
         ${TextSubHeading}{font-size:.92rem}
         ${TextHeader}{font-size:1.7rem}
-        ${Text}{font-size:.9rem}
-        ${TextWrapper}{max-width:460px}
+        ${Text}{font-size:1rem}
+        ${TextWrapper}{max-width:88%}
         ${Image}{ width:21rem; } 
     }
 `

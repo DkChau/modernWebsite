@@ -63,7 +63,7 @@ export const HomeContainer = styled.div`
             font-size:2.5rem;
         }
         ${TextWrapper}{
-            max-width:43.75rem;
+            max-width:45rem;
             text-align: center;
             justify-self: center;
             grid-area:text;
@@ -78,22 +78,15 @@ export const HomeContainer = styled.div`
             font-size:2.4rem;
         }
         ${TextWrapper}{
-            max-width:38rem;
-            grid-area:text;
+            max-width:88%;
         }
         ${HomeImage}{
+
         }
     }
     @media screen and (max-width:576px){
         ${TextTitle}{
             font-size:2.2rem;
-        }
-        ${TextWrapper}{
-            max-width:37rem;
-            grid-area:text;
-        }
-        ${TextDescription}{
-            font-size:.9rem;
         }
         ${HomeImage}{
             width:19rem;
