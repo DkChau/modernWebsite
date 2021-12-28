@@ -34,22 +34,22 @@ const Learn = () => {
             </TextContainer>
             <LearnWrapper>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Learn/Bulb.svg").default}></LearnImage>
+                    <LearnImage alt='A lightbulb' src={require("../../Images/Learn/Bulb.svg").default}></LearnImage>
                     <LearnSubHead>Values</LearnSubHead>
                     <LearnDescription>Lorem Ipsum is simply dummy text </LearnDescription>
                 </SingleLearn>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Learn/Calendar.svg").default}></LearnImage>
+                    <LearnImage alt='A calendar' src={require("../../Images/Learn/Calendar.svg").default}></LearnImage>
                     <LearnSubHead>Values</LearnSubHead>
                     <LearnDescription>Lorem Ipsum is simply dummy text </LearnDescription>
                 </SingleLearn>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Learn/Pencil.svg").default}></LearnImage>
+                    <LearnImage alt='Two pencils crossed to make an X' src={require("../../Images/Learn/Pencil.svg").default}></LearnImage>
                     <LearnSubHead>Values</LearnSubHead>
                     <LearnDescription>Lorem Ipsum is simply dummy text </LearnDescription>
                 </SingleLearn>
                 <SingleLearn>
-                    <LearnImage src={require("../../Images/Learn/Board.svg").default}></LearnImage>
+                    <LearnImage alt='A whiteboard' src={require("../../Images/Learn/Board.svg").default}></LearnImage>
                     <LearnSubHead>Values</LearnSubHead>
                     <LearnDescription>Lorem Ipsum is simply dummy text </LearnDescription>
                 </SingleLearn>

@@ -10,7 +10,9 @@ import {
     Socials,
     Link,
     LinkItem,
-    Category
+    Category,
+    CreditWrapper,
+    CreditLink
 
 } from './FooterElements'
 import {
@@ -27,6 +29,10 @@ const index = () => {
             <FooterWrapper>
                 <LogoWrapper>
                     <Logo>DKC</Logo>
+                    <CreditWrapper>
+                        All Images made by 
+                        <CreditLink href='https://lukaszadam.com/' target='_blank'>  Lukas Zadam</CreditLink>
+                    </CreditWrapper>
                     <SocialWrapper>
                         <Socials>
                             <TiSocialFacebook/>
@@ -40,7 +46,7 @@ const index = () => {
                 <ContentWrapper>
                     <LinkWrapper>
                         <LinkItem>
-                            <Category>News & Info</Category>
+                            <Category>News and Info</Category>
                             <Link>Press Releases</Link>
                             <Link>Product Manuals</Link>
                             <Link>Newsletter Sign Up</Link>

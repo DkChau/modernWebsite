@@ -10,7 +10,7 @@ import {
 const Card = (props) => {
     return (
         <CardContainer>
-            <CardImage src={require("../../Images/Services/"+props.loc+'.svg').default}></CardImage>
+            <CardImage alt={props.description} src={require("../../Images/Services/"+props.loc+'.svg').default}></CardImage>
             <CardHeading>Test</CardHeading>
             <CardLink>Learn more</CardLink>
         </CardContainer>

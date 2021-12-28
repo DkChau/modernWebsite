@@ -17,7 +17,7 @@ const Home = () => {
                 <Button text={'Get started'}></Button>
             </TextWrapper>
             <ImageWrapper>
-                <HomeImage src={require("../../Images/Rocket.svg").default}></HomeImage>
+                <HomeImage alt='Cartoon Rocket about to take off' src={require("../../Images/Rocket.svg").default}></HomeImage>
             </ImageWrapper>
         </HomeContainer>
     )

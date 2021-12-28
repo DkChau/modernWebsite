@@ -23,10 +23,10 @@ const Service = () => {
                 </TextWrapper>
             </TextContainer>
             <CardWrapper>
-                    <Card loc={'Trophy'}></Card>
-                    <Card loc={'Ribbon'}></Card>
-                    <Card loc={'Graph'}></Card>
-                    <Card loc={'Mail'}></Card>
+                    <Card loc={'Trophy'} description='A Trophy'></Card>
+                    <Card loc={'Ribbon'} description='A Ribbon'></Card>
+                    <Card loc={'Graph'} description='A Bar Graph'></Card>
+                    <Card loc={'Mail'} description='A Letter'></Card>
             </CardWrapper>
         </ServiceContainer>
     )

@@ -4,7 +4,7 @@ export const FooterWrapper = styled.div`
     width:80%;
     height:100%;
     display:grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: auto 1fr;
     grid-template-areas:"logo content";
     align-content: center;
 
@@ -18,7 +18,7 @@ export const LogoWrapper = styled.div`
 `
 export const Logo = styled.p`
     font-size:4rem;
-    padding-bottom: 15px; //norm to 1200
+    padding-bottom: 1rem; 
 `
 export const ContentWrapper = styled.div`
     display:flex;
@@ -65,6 +65,17 @@ export const Socials = styled.div`
     align-items:center;
     font-size:2rem;
 `
+export const CreditWrapper = styled.div`
+    padding:1rem;
+`
+export const CreditLink = styled.a`
+    text-decoration:none;
+
+    &:hover{
+        text-decoration:underline;
+    }
+
+`
 export const FooterContainer = styled.div`
     display:flex;
     width:100%;
@@ -89,7 +100,7 @@ export const FooterContainer = styled.div`
         }
         ${Logo}{
             font-size:2rem;
-            padding: 20px 0;
+            /* padding: 20px 0; */
         }
         ${LinkWrapper}{
             align-self:center;

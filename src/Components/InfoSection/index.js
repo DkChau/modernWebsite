@@ -23,7 +23,7 @@ const InfoSection = (props) => {
                 </TextWrapper>
             </TextContainer>
             <ImageWrapper>
-                <Image src={props.data.src.default}></Image>
+                <Image alt={props.data.imgDesc} src={props.data.src.default}></Image>
             </ImageWrapper>
         </InfoContainer>
     )

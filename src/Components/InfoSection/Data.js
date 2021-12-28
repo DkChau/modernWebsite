@@ -5,7 +5,8 @@ export const Section1 = {
   text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
   src: require("../../Images/GuyCat.svg"),
   id: "about",
-  btnText:'Contact Us'
+  btnText:'Contact Us',
+  imgDesc:'Cartoon image of an adult male accompanied by his cat and computer'
 };
 
 export const Section2 = {
@@ -15,5 +16,6 @@ export const Section2 = {
   text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
   src: require("../../Images/Javascript.svg"),
   id: "careers",
-  btnText:'View Careers'
+  btnText:'View Careers',
+  imgDesc:'Cartoon image of an a miniature robot peeking out from behind a laptop'
 };
