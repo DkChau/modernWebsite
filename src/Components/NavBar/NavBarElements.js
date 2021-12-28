@@ -100,7 +100,7 @@ export const NavContainer = styled.div`
     top:0; 
     padding: 0 8%;
     display: grid;
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 100px 1fr 100px;
     justify-content: center;
     align-content: center;
     font-family:'Open Sans';

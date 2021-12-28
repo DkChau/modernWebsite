@@ -47,10 +47,10 @@ const index = () => {
                         </LinkItem>
                         <LinkItem>
                             <Category>Other Sites</Category>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
-                            <Link>Link test</Link>
+                            <Link>Site #1</Link>
+                            <Link>Site #2</Link>
+                            <Link>Site #3</Link>
+                            <Link>Site #4</Link>
                         </LinkItem>
                         <LinkItem>
                             <Category>Learn More</Category>
